@@ -1,4 +1,4 @@
-package com.education.lostandfound.model;
+package com.example.finalcoursework_lostfound.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 @Data
 @Table(name = "users")
-public class user implements UserDetails {
+public abstract class user implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
