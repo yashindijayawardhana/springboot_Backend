@@ -2,8 +2,8 @@
 
 # 🎒 Lost and Found Backend - Final Coursework
 
-This is the complete backend for the **Lost and Found** application, developed as part of the CMJD Final Coursework (Batch 108/109).
-The application is built using Spring Boot and provides APIs for user authentication, item reporting, and request management.
+This is the backend system for the **Lost and Found Application** built using **Spring Boot**, **MySQL**, and **JWT Authentication**. It is designed to manage lost and found items within an educational institution, supporting different user roles (Admin, Staff, User) with secure access.
+
 
 ---
 
